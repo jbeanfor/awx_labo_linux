@@ -1,5 +1,5 @@
 ---
-- hosts: "linux02"
+- hosts: "{{ hosts }}"
   become: true
   tasks:
     - name: install apache
